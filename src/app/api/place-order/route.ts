@@ -1,7 +1,7 @@
 // app/api/place-order/route.ts
 import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
-import { authOptions } from "../auth/[...nextauth]/route";
+import { authOptions } from "../auth/[...nextauth]/auth";
 
 export async function POST(req: NextRequest) {
   const session = await getServerSession({ req, ...authOptions });
