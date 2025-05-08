@@ -14,7 +14,7 @@ export const metadata = {
     url: 'https://example.com',
     images: [
       {
-        url: 'https://via.placeholder.com/1200x630',
+        url: 'https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg',
         width: 1200,
         height: 630,
         alt: 'Обложка магазина',
