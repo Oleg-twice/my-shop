@@ -4,9 +4,9 @@ import BackButton from "@/components/BackButton";
 import AddToCartButton from "@/components/AddToCartButton";
 
 type Params = {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 };
 
 export async function generateMetadata({ params }: Params) {
