@@ -1,4 +1,4 @@
-import { getProduct, getProducts, STORE_API } from "@/lib/products";
+import { getProduct, getProducts } from "@/lib/products";
 import { notFound } from "next/navigation";
 import BackButton from "@/components/BackButton";
 import AddToCartButton from "@/components/AddToCartButton";
